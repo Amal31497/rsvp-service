@@ -61,14 +61,14 @@ public class RsvpControllerTest {
         allRsvpsJson = mapper.writeValueAsString(allRsvps);
     }
 
-//    @Test
-//    public void shouldReturnAllRsvps() throws Exception {
+    @Test
+    public void shouldReturnAllRsvps() throws Exception {
 //        when(dao.getAllRsvps()).thenReturn(allRsvps);
 //
 //        mockMvc.perform(get("/rsvps"))
 //                .andExpect(status().isOk())
 //                .andExpect(content().json(allRsvpsJson)
 //                );
-//
-//    }
+
+    }
 }
